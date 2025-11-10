@@ -11,15 +11,6 @@ End-to-end DevOps pipeline using **Docker**, **Terraform**, and **GitHub Actions
 ## 🧩 Tech Stack
 Docker • Terraform • AWS ECR • EKS • GitHub Actions • Node.js • MongoDB
 
-## 📁 Structure
-.github/workflows/ # CI/CD pipeline
-backend/ # Node.js app
-frontend/ # React app
-mongo/ # MongoDB container setup
-terraform/ # EKS infrastructure code
-k8s/ # Deployment manifests
-
-
 ## 🔑 GitHub Secrets
 `AWS_ACCESS_KEY_ID` • `AWS_SECRET_ACCESS_KEY` • `AWS_REGION` • `ECR_REPOSITORY`
 
